@@ -44,8 +44,8 @@ a {
 }
 
 .btn:hover {
-  transform: scale(1.05); /* Phóng to nhẹ */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bóng đổ đậm hơn */
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 a.btn {
@@ -62,14 +62,13 @@ a.btn {
   color: #0d1111;
   font-size: 6.2rem;
   font-weight: 700;
-  line-height: 1.16; /* 116.129% */
+  line-height: 1.16;
 }
 
 .heading.lv2 {
   color: #0d1111;
   font-size: 4.2rem;
   font-weight: 700;
-  /* line-height: 1.33; */
   line-height: normal;
 }
 
@@ -638,9 +637,16 @@ button {
   gap: 30px;
 }
 
+.feedback .feedback-left .gr-icon .icon-left,
+.feedback .feedback-left .gr-icon .icon-right {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .icon-left:hover circle,
 .icon-right:hover circle {
-  fill: rgb(212, 212, 212);
+  fill: white;
 }
 
 .icon-left:hover path,
