@@ -215,6 +215,9 @@ button {
 
 .hero .body .intro .cta-group .bg-icon:hover {
   background-color: var(--primary-color);
+  .play-icon-path {
+    fill: white;  
+  }
 }
 
 .hero .body .intro .cta-group .bg-icon:hover .play-icon {
@@ -472,7 +475,7 @@ button {
   width: 359px;
   height: 393px;
   border-radius: 8px;
-  opacity: 0.35;
+  opacity: 0.65;
   background: #d0efed;
   object-fit: fill;
   transition: ease-in 0.3s;
